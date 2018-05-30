@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {isMobileOnly} from 'react-device-detect';
 import {ScrapBook} from "./actions/data";
 
-// 960ba8761a0f7ea8e597db8b6ea22ffaf72852d6
 // Get Views
 import Mobile from "./js/views/mobile";
 import Browser from "./js/views/browser";
