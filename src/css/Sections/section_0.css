@@ -1,0 +1,37 @@
+.section_0 .Faded_Gallery {
+  width: 430px;
+  height: 572px;
+  margin-top: -164px; }
+
+.section_0 .Copy {
+  margin: 0 0px 10px 180px; }
+
+.section_0 .Hero img {
+  width: 80%;
+  margin-top: -0px; }
+
+.section_0 .Trinket:nth-child(1) {
+  top: 265px;
+  right: 5px;
+  width: 27%; }
+
+.section_0 .Trinket:nth-child(2) {
+  bottom: 25px;
+  left: 400px;
+  width: 27%; }
+
+.section_0 .Additional {
+  height: 570px; }
+  .section_0 .Additional img:nth-child(1) {
+    width: 61%;
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    left: 20px;
+    bottom: 60px; }
+  .section_0 .Additional img:nth-child(2) {
+    width: 40%;
+    -webkit-transform: rotate(2deg);
+    position: absolute;
+    bottom: 0;
+    right: 40px; }

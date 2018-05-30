@@ -1,0 +1,23 @@
+.section_1 {
+  padding-bottom: 55px; }
+  .section_1 .Hero .Faded_Gallery {
+    -webkit-transform: rotate(-2deg);
+    margin: 0 0 0 20px;
+    width: 500px;
+    height: 667px;
+    z-index: 99;
+    position: relative; }
+  .section_1 .Copy {
+    margin: 20px 40px 0 0px; }
+  .section_1 .Trinket:nth-child(1) {
+    bottom: 0;
+    left: 35px;
+    width: 45%;
+    z-index: 999; }
+  .section_1 .Additional img:nth-child(1) {
+    float: right;
+    width: 55%;
+    margin-top: -230px;
+    margin-right: 10px;
+    z-index: 0;
+    position: relative; }

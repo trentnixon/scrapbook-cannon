@@ -1,0 +1,30 @@
+.section_4{
+    padding-bottom: 65px;
+    .Hero{
+        img{
+            margin: -160px 0 0 120px;
+            width: 385px;
+            height: 508px;
+            z-index: 99;
+            position: relative;
+            -webkit-transform: rotate(-3deg); 
+        }
+    }
+
+    .Copy{
+        margin:20px 40px 0 0;
+        p{ }    
+    }
+
+    // Trinkets
+    .Trinket:nth-child(1){
+        bottom: 0px;
+        right: 29px;
+        width: 38%;
+        z-index: 999;
+    }
+
+    .Additional{
+        display: none;
+    }
+}

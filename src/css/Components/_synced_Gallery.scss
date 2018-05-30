@@ -1,0 +1,19 @@
+.slick-slider{
+    h3.cursive{
+        margin: 10px 0 10px 30px;
+        font-size: 2em;
+    }
+
+    .syncImage{
+        padding:0 0 40px 0 ;
+
+        .sync_1{-webkit-transform: rotate(-3deg);  margin: 0 15% 0 5%;}
+        .sync_2{-webkit-transform: rotate(3deg);  margin: 0 15% 0 15%;}
+        .sync_3{-webkit-transform: rotate(-5deg);  margin: 0 1% 0 20%;}
+        .sync_4{-webkit-transform: rotate(1deg);  margin: 0 15% 0 20%;}
+
+    .sync{
+            width: 70%;
+        }
+    }
+}

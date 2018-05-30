@@ -1,0 +1,20 @@
+#Browser{
+
+    section{
+        margin:10px 0 ;
+        position: relative;
+
+        .Faded_Gallery{
+            width: 430px;
+            height: 572px;
+        }
+
+    }
+
+    @import "./section_0.scss";
+    @import "./section_1.scss";
+    @import "./section_2.scss";
+    @import "./section_3.scss";
+    @import "./section_4.scss";
+
+}

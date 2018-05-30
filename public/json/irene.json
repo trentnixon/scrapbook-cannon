@@ -1,0 +1,137 @@
+{
+    "header":"Irene's Story:",
+    "header_logo":"header_logo.png",
+    "tagline":"Paid for by",
+    "SponsorLogo":"Canon-Logo.png",
+    "Sections":[
+        {
+            "Label":"Section 0",
+            "layout":"textLeft",
+            "heroType":"slide",
+            "hero":["irene_Image_001_cropped.jpg","irene_Image_005_cropped.jpg","Image_011_cropped.jpg"],
+            "media":"still",
+            "Assets":["irene_Image_002.png","irene_Image_003.png"],
+            "trinkets":["Trinket_Coffee.png","Trinket_Horse.png"],
+            "Mobile_Media":"still",
+            "Mobile_Assest":["Mobile_Image_001_2x.jpg"],
+            "copy":[
+                {
+                    "type":"bold",
+                    "copy":"Irene left Greece as a girl and never thought she would return, at (age) she was given the chance of a lifetime to return to her hometown, rekindle her curiosity in life and reconnect with her Greek heritage"
+                },
+                {
+                    "type":"normal",
+                    "copy":"I was born in Greece and I came to Australia when I was four, I returned once when I was nine but sadly, in my adult life I never had the opportunity to go back."
+                },
+                {
+                    "type":"normal",
+                    "copy":"See, I always wanted to go back to Greece… but life got in the way. You get married, you have children, you get busy… I spent all my time focusing on my family and their lives that I kind of forgot about myself."
+                }
+            ]
+        }
+,
+        {
+            "Label":"Section 1",
+            "layout":"textRight",
+            "heroType":"slide",
+            "hero":["irene_Image_005_cropped.jpg","irene_Image_001_cropped.jpg","Image_011_cropped.jpg"],
+            "media":"still",
+            "Assets":["irene_Image_007.jpg"],
+            "trinkets":["Trinket_money.png"],
+            "Mobile_Media":"still",
+            "Mobile_Assest":["Mobile_Image_002_2x.jpg"],
+            "copy":[
+                {
+                    "type":"normal",
+                    "copy":"When you grow up, slowly slowly you tend to forget your heritage and that feeling of birthplace, as I became more Australian, I lost the connection that I had with my home in Greece, and that part of my identity."
+                },
+                {
+                    "type":"normal",
+                    "copy":"This year, Canon gave me the opportunity to return to Athens - to help bring the curiosity back into my life... and from the moment I stepped out of the airport and was amongst the Greek people (they’re lovely people they are!) I remembered what it was like to feel Greek again, and everything that I had lost all those years ago came rushing back to me."
+                },
+                {
+                    "type":"normal",
+                    "copy":"It’s funny, the whole trip feels like one incredible blur, there wasn’t one moment that I didn’t enjoy being there… I loved every second of it."
+                }
+            ]
+        }
+,        
+        {
+            "Label":"Section 2",
+            "layout":"textLeft",
+            "heroType":"slide",
+            "hero":["irene_Image_008.jpg","irene_Image_005_cropped.jpg","Image_011_cropped.jpg"],
+            "media":"still",
+            "Assets":["irene_Image_009.jpg"],
+            "trinkets":["Trinket_meatballs.png"],
+            "Mobile_Media":"still",
+            "Mobile_Assest":["Mobile_Image_003_2x.jpg"],
+            "copy":[
+                {
+                    "type":"normal",
+                    "copy":"I’ve always loved Greek food… what’s not to love?! And I love to cook! But unfortunately I don’t get to do it too much at home anymore, once the kids grow up and moved out… I didn’t have the excuse to cook big family meals anymore. "
+                },
+                {
+                    "type":"normal",
+                    "copy":"Greek food brings people together.  In Athens I just loved the incredible platters of slow cooked meats and seafood and vegetables that friends new and old would sit around for hours. We’d drink, and talk, and laugh and watch the world go by."
+                },
+                {
+                    "type":"normal",
+                    "copy":"I’m a little biased... but Greek food is the best in the world, the flavours are like nothing else.  They mix these incredible spices, and sauces and secret ingredients and prepare the food in such a way that there really is nothing like it. Everything is so delicious - full of life and zest and love."
+                }
+            ]
+        }
+,
+
+        {
+            "Label":"Section 3",
+            "layout":"textLeft",
+            "heroType":"slide",
+            "hero":["Image_011_cropped.jpg","irene_Image_008.jpg","irene_Image_005_cropped.jpg"],
+            "media":"still",
+            "Assets":["irene_Image_012.jpg"],
+            "trinkets":[""],
+            "Mobile_Media":"still",
+            "Mobile_Assest":["Mobile_Image_006_2x.jpg"],
+            "copy":[
+                {
+                    "type":"normal",
+                    "copy":"Athens really is like a fantasy world, it’s just not like other cities.  There are so many alleyways, and secret passages and little nooks and corners filled with magic waiting to be discovered. There’s a real sense of wonder to the place... "
+                },
+                {
+                    "type":"normal",
+                    "copy":"Greece rewards the curious and those with a sense of adventure."
+                },
+                {
+                    "type":"normal",
+                    "copy":"I stayed just near the Parthenon, and there was this man I met, nearby who fed the cats, some were his cats and some were strays, and he told me a story about one of the cats that makes me cry now even thinking about it.  There was one little cat who would visit everyday and eat the food, and then return like clockwork to his house and rest outside the door to be let in, the man told me that the cat’s owner has passed away two years earlier, but the cat still sat there patiently everyday waiting for it’s owner to come home.  I was so sad that I wanted to bring that cat home with me - smuggle him in my suitcase! but I had to say goodbye."
+                }
+            ]
+        }
+,
+        {
+            "Label":"Section 4",
+            "layout":"textRight",
+            "heroType":"still",
+            "hero":["irene_image_013.jpg"],
+            "media":"still",
+            "Assets":[""],
+            "trinkets":[""],
+        
+            "copy":[
+                {
+                    "type":"normal",
+                    "copy":"I’ve been back a while now, and while my body is definitely here in Australia, my heart is still in Greece, it was the experience of a lifetime and it will stay with me forever."
+                },
+                {
+                    "type":"normal",
+                    "copy":"I feel truly Greek now, my identity has been restored. Everyone I met was absolutely adorable, sincere and lovely and it’s changed my life. All you need is to have faith, a little tolerance, to be kind and a smile."
+                },
+                {
+                    "type":"normal",
+                    "copy":"I learnt that life is short.  It’s too short to not spend time wondering and being a little curious from time to time."
+                }
+            ]
+        }
+    ]
+}

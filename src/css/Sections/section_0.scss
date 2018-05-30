@@ -1,0 +1,54 @@
+.section_0{
+       
+    .Faded_Gallery{
+        width: 430px;
+        height: 572px;
+        margin-top: -164px;
+    }
+
+    // Hero
+    .Copy{
+        margin: 0 0px 10px 180px;
+        p{ }    
+    }
+
+    .Hero{
+        img{
+            width: 80%;
+            margin-top: -0px;
+        }
+    }
+
+    // Trinkets
+    .Trinket:nth-child(1){
+        top: 265px;
+        right: 5px;
+        width: 27%;
+    }
+    .Trinket:nth-child(2){
+        bottom: 25px;
+        left: 400px;
+        width: 27%;
+    }
+
+    // Additional
+    .Additional{
+        height: 570px;
+        img:nth-child(1){
+            width: 61%;
+            float: left;
+            position: absolute;
+            margin-left: 10px;
+            left: 20px;
+            bottom: 60px;
+        }
+        img:nth-child(2){
+            width:40%;
+            -webkit-transform: rotate(2deg); 
+            position: absolute;
+            bottom: 0;
+            right: 40px;
+        }
+    }
+
+}

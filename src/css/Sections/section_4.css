@@ -1,0 +1,18 @@
+.section_4 {
+  padding-bottom: 65px; }
+  .section_4 .Hero img {
+    margin: -160px 0 0 120px;
+    width: 385px;
+    height: 508px;
+    z-index: 99;
+    position: relative;
+    -webkit-transform: rotate(-3deg); }
+  .section_4 .Copy {
+    margin: 20px 40px 0 0; }
+  .section_4 .Trinket:nth-child(1) {
+    bottom: 0px;
+    right: 29px;
+    width: 38%;
+    z-index: 999; }
+  .section_4 .Additional {
+    display: none; }

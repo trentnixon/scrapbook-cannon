@@ -1,0 +1,51 @@
+#Mobile{
+    .App-header{
+        margin-bottom: 20px;
+
+        h2.App-title{
+            text-align: center;
+            margin: 20px 0 0px;
+            font-weight: 100;
+            font-size: 1.5em;
+        }
+        img{width:100%;}   
+    }
+
+    p{
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
+    .DisplayMedia{
+        img{
+            width:90%;
+            margin: 10px 5%;
+        }
+        .frame{
+            box-shadow: unset;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+        }
+    }
+    .section_4{
+        .DisplayMedia{
+            display: none;
+        }
+    }
+
+    .App-footer{
+        padding:30px 10px 0 ;
+        margin: 0 0 10px 0;
+        h2{ font-size: 1.5em;}
+        .btn{ font-size: 1.5em; padding: 5px 20px;}
+    }
+    
+    .SponsorShip{
+        text-align: center;
+        p{ }
+        span{
+            margin: 0 10px;
+        }
+    }
+}

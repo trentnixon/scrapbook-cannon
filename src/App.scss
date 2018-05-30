@@ -1,0 +1,24 @@
+// Import Variables
+@import "./css/variables/_variables.scss";
+  // Global
+.App {
+  background-color: $bg_color;
+  color:$font_color;
+  overflow: hidden;
+
+  @import "./css/_typography.scss";
+  @import "./css/_components.scss";
+ 
+}
+
+// Sturcture
+ @import "./css/Sections/_header.scss";
+ @import "./css/Sections/_footer.scss";
+
+ // Browser Specific
+  @import "./css/Sections/_sections_browser.scss"; 
+
+// Mobile Specific
+  @import "./css/Sections/_sections_mobile.scss"; 
+// Responsive
+@import "./css/_responsive.scss";
