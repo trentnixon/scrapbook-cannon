@@ -17,9 +17,9 @@
     }
     // Trinkets
     .Trinket:nth-child(1){
-        bottom: 0px;
-        right: 29px;
-        width: 38%;
+        top: -19px;
+        right: 36%;
+        width: auto;
         z-index: 999;
     }
 
@@ -31,5 +31,9 @@
             position: relative;
             margin-left: 12px;
         }
+    }
+
+    .cursive{
+        margin: -41px 0 35px 130px;
     }
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Paragraph from "../components/copy";
 import Media from "../sections/Media";
 import Trinkets from "../components/Trinkets";
-
+import CustomLabel from "../sections/Custom_Labels";
 
 export default class Text_Left extends Component {
   render() {
@@ -10,6 +10,7 @@ export default class Text_Left extends Component {
             <section className={"section_"+this.props.i} >
                 <div className="row">
                 <div className="col-12 col-md-6"> 
+                    <CustomLabel label={this.props.label} />
                     <Paragraph data={this.props.copy} />
                 </div>
                 <div className="col-12 col-md-6 Hero">

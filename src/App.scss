@@ -9,6 +9,13 @@
   @import "./css/_typography.scss";
   @import "./css/_components.scss";
  
+  
+}
+
+.LoadingScreen{
+  text-align: center;
+  padding:10%;
+  background-color: $bg_color;
 }
 
 // Sturcture

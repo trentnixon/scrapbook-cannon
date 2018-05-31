@@ -10,9 +10,9 @@
   .section_3 .Copy {
     margin: 0px 0 20px 50px; }
   .section_3 .Trinket:nth-child(1) {
-    bottom: 0px;
-    right: 29px;
-    width: 38%;
+    top: -19px;
+    right: 36%;
+    width: auto;
     z-index: 999; }
   .section_3 .Additional img:nth-child(1) {
     float: left;
@@ -20,3 +20,5 @@
     margin-top: -47px;
     position: relative;
     margin-left: 12px; }
+  .section_3 .cursive {
+    margin: -41px 0 35px 130px; }

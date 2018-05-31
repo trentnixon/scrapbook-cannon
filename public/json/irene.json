@@ -7,17 +7,18 @@
         {
             "Label":"Section 0",
             "layout":"textLeft",
-            "heroType":"slide",
-            "hero":["irene_Image_001_cropped.jpg","irene_Image_005_cropped.jpg","Image_011_cropped.jpg"],
+            "heroType":"still",
+            "hero":["irene_Image_001_cropped.jpg"],
             "media":"still",
-            "Assets":["irene_Image_002.png","irene_Image_003.png"],
+            "Assets":["irene_Image_002.jpg","irene_Image_003.jpg"],
             "trinkets":["Trinket_Coffee.png","Trinket_Horse.png"],
             "Mobile_Media":"still",
             "Mobile_Assest":["Mobile_Image_001_2x.jpg"],
+            "Custom_Label":null,
             "copy":[
                 {
                     "type":"bold",
-                    "copy":"Irene left Greece as a girl and never thought she would return, at (72) she was given the chance of a lifetime to return to her hometown, rekindle her curiosity in life and reconnect with her Greek heritage"
+                    "copy":"Irene left Greece as a girl and never thought she would return, at 72 she was given the chance of a lifetime to return to her hometown, rekindle her curiosity in life and reconnect with her Greek heritage"
                 },
                 {
                     "type":"normal",
@@ -34,12 +35,13 @@
             "Label":"Section 1",
             "layout":"textRight",
             "heroType":"slide",
-            "hero":["irene_Image_005_cropped.jpg","irene_Image_001_cropped.jpg","Image_011_cropped.jpg"],
+            "hero":["irene_window.jpg","donkeys.jpg","irene_friends.jpg"],
             "media":"still",
             "Assets":["irene_Image_007.jpg"],
             "trinkets":["Trinket_money.png"],
             "Mobile_Media":"still",
             "Mobile_Assest":["Mobile_Image_002_2x.jpg"],
+            "Custom_Label":null,
             "copy":[
                 {
                     "type":"normal",
@@ -55,17 +57,18 @@
                 }
             ]
         }
-,        
+,
         {
             "Label":"Section 2",
             "layout":"textLeft",
             "heroType":"slide",
-            "hero":["irene_Image_008.jpg","irene_Image_005_cropped.jpg","Image_011_cropped.jpg"],
+            "hero":["irene_fish.jpg","Ham.jpg"],
             "media":"still",
             "Assets":["irene_Image_009.jpg"],
             "trinkets":["Trinket_meatballs.png"],
             "Mobile_Media":"still",
             "Mobile_Assest":["Mobile_Image_003_2x.jpg"],
+            "Custom_Label":"I Loved every second of it",
             "copy":[
                 {
                     "type":"normal",
@@ -87,12 +90,13 @@
             "Label":"Section 3",
             "layout":"textLeft",
             "heroType":"slide",
-            "hero":["Image_011_cropped.jpg","irene_Image_008.jpg","irene_Image_005_cropped.jpg"],
+            "hero":["irene_in_the_forrest.jpg","Image_011_cropped.jpg","bee_hives.jpg"],
             "media":"still",
-            "Assets":["irene_Image_012.jpg"],
-            "trinkets":[""],
+            "Assets":["irene_in_the_flowers.jpg"],
+            "trinkets":["arrow.png"],
             "Mobile_Media":"still",
             "Mobile_Assest":["Mobile_Image_006_2x.jpg"],
+            "Custom_Label":"Greeks know how to cook",
             "copy":[
                 {
                     "type":"normal",
@@ -114,10 +118,10 @@
             "layout":"textRight",
             "heroType":"still",
             "hero":["irene_image_013.jpg"],
-            "media":"still",
-            "Assets":[""],
-            "trinkets":[""],
-        
+            "media":null,
+            "Assets":null,
+            "trinkets":null,
+            "Custom_Label":"Greece rewards the curious and those with a sense of adventure. ",
             "copy":[
                 {
                     "type":"normal",

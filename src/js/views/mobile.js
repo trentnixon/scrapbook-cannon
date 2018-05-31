@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { connect } from "react-redux";
 // Scrap Book layout
 import Header from "../sections/Header";
+import LoadingScreen from "../sections/Loading";
 import Paragraph from "../components/copy";
 import Media from "../sections/Media";
 import Footer from "../sections/footer";
@@ -16,8 +17,6 @@ class App extends Component {
     componentDidUpdate(){ }
 
   render() {
-  
-    console.log(this.props.UI.Data);
               if(this.props.UI.Data !== false){
                 return (
                   <div id="Mobile" className="App container">                  
@@ -48,7 +47,7 @@ class App extends Component {
                     />
                   </div>
                 );
-              }else{ return( <div> Loading </div> ) }
+              }else{ return( <LoadingScreen logo="/assets/Canon-Logo.png" />) }
   }
 }
 const mapStateToProps = (state) => ({

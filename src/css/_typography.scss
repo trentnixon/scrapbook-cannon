@@ -8,36 +8,28 @@ h3{}
 
 p{
     font-size: 1em;
-    line-height: 1.8em;
+    line-height: 1.6em;
     font-family:$serif;
     padding: 2px 15px;
+    text-rendering:optimizeLegibility;
 }
 
-.cursive{ font-family: $cursive; 
-    font-size: 1.4em;
-    line-height: 1.3em;
+.cursive{ 
+    font-family: $cursive; 
+    font-size: 3em;
+    line-height: 1em;
+    margin:-20px 0 20px 80px;
+        /* Safari */
+        -webkit-transform: rotate(-3deg);
+    /* Firefox */
+        -moz-transform: rotate(-3deg);
+    /* IE */
+        -ms-transform: rotate(-3deg);
+    /* Opera */
+        -o-transform: rotate(-3deg);
+    /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
 }
 .normal{}
 .bold{ font-weight: 600; }
-
-
-.blue{color:$featured_color;}
-.angle{
-    /* Safari */
-        -webkit-transform: rotate(-10deg);
-    /* Firefox */
-        -moz-transform: rotate(-10deg);
-    /* IE */
-        -ms-transform: rotate(-10deg);
-    /* Opera */
-        -o-transform: rotate(-10deg);
-    /* Internet Explorer */
-        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
-        z-index: 99;
-        position: relative;
-        font-size: 1.8em;
-        line-height: 1em;
-        margin-bottom: -30px;
-        margin-top: 30px;
-}

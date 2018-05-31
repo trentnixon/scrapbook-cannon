@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import { connect } from "react-redux";
 // Scrap Book layout
+import LoadingScreen from "../sections/Loading";
 import Header from "../sections/Header";
 import Footer from "../sections/footer";
 import Sponsor from "../sections/Sponsorship";
@@ -21,7 +22,13 @@ class App extends Component {
     return (
         
         <div id="Browser" className="App  container">  
-            
+            <div class="d-md-none">
+                    <LoadingScreen 
+                        logo="/assets/Canon-Logo.png"
+                    />
+                    <p className="text-center" >Refresh this page to view the content.</p>
+            </div>
+            <div class="d-none d-md-block">
             <Header 
                 header={this.props.UI.Data.header} 
                 header_logo={this.props.UI.Data.header_logo}
@@ -43,6 +50,7 @@ class App extends Component {
                                     Additional_assets={section.Assets}
                                     Trinkets={section.trinkets} 
                                     Path="/assets/"
+                                    label={section.Custom_Label}
                                 />
                               )
                         }
@@ -57,6 +65,7 @@ class App extends Component {
                                     Additional_type={section.media} 
                                     Additional_assets={section.Assets}
                                     Trinkets={section.trinkets} 
+                                    label={section.Custom_Label}
                                     Path="/assets/"
                                 />
                               )
@@ -69,9 +78,14 @@ class App extends Component {
                         logo={this.props.UI.Data.SponsorLogo}
                         path="/assets/"
                     />
+                    </div>
                   </div>
                 );
-              }else{ return( <div> Loading </div> ) }
+              }else{ return( 
+                    <LoadingScreen 
+                        logo="/assets/Canon-Logo.png"
+                    />
+            ) }
   }
 }
 const mapStateToProps = (state) => ({

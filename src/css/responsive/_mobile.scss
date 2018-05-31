@@ -12,4 +12,17 @@
 /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
     /* Styles */
+    #Mobile {
+        .App-footer{
+            margin-bottom: 20px;
+            .btn {
+                font-size: 1.2em;
+            }
+            h2 {
+                font-size: 1.2em;
+                padding: 0 2%;
+                margin:0;
+            }
+        }
     }
+}

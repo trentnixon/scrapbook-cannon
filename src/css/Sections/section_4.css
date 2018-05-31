@@ -16,3 +16,6 @@
     z-index: 999; }
   .section_4 .Additional {
     display: none; }
+  .section_4 .cursive {
+    position: absolute;
+    top: -600px; }

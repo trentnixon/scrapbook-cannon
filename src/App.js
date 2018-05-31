@@ -8,6 +8,7 @@ import Browser from "./js/views/browser";
 // Import CSS
 import './App.css';
 // Fetch Content
+
 const Content = new ScrapBook();
 
 class App extends Component {

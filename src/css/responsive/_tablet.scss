@@ -1,9 +1,11 @@
 /* iPads (portrait and landscape) ----------- */
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
+    
     /* Styles */
 
     #Browser {
+      
         .section_0 {
             .Copy { margin: 30px 0px 0px 79px;}
             .Additional{
@@ -31,7 +33,7 @@
                 padding: 0px 0 0 10px;
             } 
             .Additional img:nth-child(1){ margin-top: -110px; }
-            .Trinket:nth-child(1){ bottom: 65px; }
+            .Trinket:nth-child(1){ bottom: 65px;   right:0;  width: 54%; }
         }
         .section_3{ 
             
@@ -53,17 +55,18 @@
     /* Styles */
     }
     
+
     /* iPads (portrait) ----------- */
     @media only screen and (min-width : 768px) and (max-width : 1023px) and (orientation : portrait) {
     /* Styles */
+    
     #Browser {
-
         .App-header h2{ margin:40px 0 -25px -30px}
 
         .section_0 {
             .Copy { margin: 30px 0px 0px 0px;}
             .Additional{
-                height: 310px;
+                height: 355px;
                 margin-bottom: 40px;
 
                 img:nth-child(2){bottom: 5px;}
@@ -85,7 +88,7 @@
             .Copy { margin: 0px; }
 
             .Hero .Faded_Gallery{width: 325px;  height: 430px; }
-            .Additional img:nth-child(1){margin-top: -145px;}
+            .Additional img:nth-child(1){margin-top: -5px;}
             .Trinket:nth-child(1) {     bottom: 105px; left: 36px;}
         }
         .section_2 {
@@ -113,6 +116,7 @@
             }
             .btn{ font-size: 2em;}
         }
+        
     }
     /**********
     iPad 3

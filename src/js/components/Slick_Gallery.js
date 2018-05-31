@@ -8,15 +8,15 @@ const imageStyles={
 export default  class SimpleSlider extends React.Component {
   afterChange(o,n){
       // Old index not working in plugin!!!
-      let old, Img, OldImg;
+      // let old, Img, OldImg;
 
-      if(n===0){old = this.props.data.length-1 } else{old=n-1}
+      // if(n===0){old = this.props.data.length-1 } else{old=n-1}
       
-      OldImg = document.getElementById("item_"+old)
-      setTimeout(function(){ OldImg.classList.remove("pan"); },12000)
+      // OldImg = document.getElementById("item_"+old)
+      //setTimeout(function(){ OldImg.classList.remove("pan"); },12000)
       
-      Img = document.getElementById("item_"+n)
-      Img.className += " pan"; 
+     // Img = document.getElementById("item_"+n)
+     // Img.className += " pan"; 
   
     }
 

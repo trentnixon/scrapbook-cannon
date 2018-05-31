@@ -10,9 +10,9 @@
   .section_1 .Copy {
     margin: 20px 40px 0 0px; }
   .section_1 .Trinket:nth-child(1) {
-    bottom: 0;
-    left: 35px;
-    width: 45%;
+    bottom: 40px;
+    left: 105px;
+    width: 39%;
     z-index: 999; }
   .section_1 .Additional img:nth-child(1) {
     float: right;

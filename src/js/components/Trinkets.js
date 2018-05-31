@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 export default class Trinkets extends Component {
 
   render() {
-    return (
-        <div>
+    
+        if(this.props.Trinkets !== null){
+            return (
+                <div>
                 {
                     this.props.Trinkets.map((trinket,i)=>{
                         return(
@@ -17,7 +19,8 @@ export default class Trinkets extends Component {
                     })
                 }
         </div>
-            
-    );
+            )
+        }
+        else{ return (<div></div>) }
   }
 }
