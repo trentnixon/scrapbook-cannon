@@ -27,7 +27,7 @@ export default class Media extends Component {
   render() {
     if(Display_Media !== null){
         return (
-                <div className="DisplayMedia">
+                <div className="DisplayMedia" id={this.props.id}>
                     {Display_Media}
                 </div>
         );

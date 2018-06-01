@@ -7,14 +7,24 @@
         {
             "Label":"Section 0",
             "layout":"textLeft",
-            "heroType":"still",
-            "hero":["irene_Image_001_cropped.jpg"],
-            "media":"still",
-            "Assets":["irene_Image_002.jpg","irene_Image_003.jpg"],
             "trinkets":["Trinket_Coffee.png","Trinket_Horse.png"],
             "Mobile_Media":"still",
             "Mobile_Assest":["Mobile_Image_001_2x.jpg"],
             "Custom_Label":null,
+            "Images":[
+                {
+                    "type":"still",
+                    "assets":["irene_Image_001_cropped.jpg"]
+                },
+                {
+                    "type":"still",
+                    "assets":["irene_Image_002.jpg"]
+                },
+                {
+                    "type":"slide",
+                    "assets":["greek_architecture.jpg","Greek_Guard.jpg"]
+                }
+            ],
             "copy":[
                 {
                     "type":"bold",
@@ -34,14 +44,24 @@
         {
             "Label":"Section 1",
             "layout":"textRight",
-            "heroType":"slide",
-            "hero":["irene_window.jpg","donkeys.jpg","irene_friends.jpg"],
-            "media":"still",
-            "Assets":["irene_Image_007.jpg"],
             "trinkets":["Trinket_money.png"],
             "Mobile_Media":"still",
             "Mobile_Assest":["Mobile_Image_002_2x.jpg"],
             "Custom_Label":null,
+            "Images":[
+                {
+                    "type":"still",
+                    "assets":["irene_friends.jpg"]
+                },
+                {
+                    "type":null,
+                    "assets":null
+                },
+                {
+                    "type":"slide",
+                    "assets":["Greek_Couple.jpg","donkeys.jpg"]
+                }
+            ],
             "copy":[
                 {
                     "type":"normal",
@@ -62,13 +82,24 @@
             "Label":"Section 2",
             "layout":"textLeft",
             "heroType":"slide",
-            "hero":["irene_fish.jpg","Ham.jpg"],
-            "media":"still",
-            "Assets":["irene_Image_009.jpg"],
             "trinkets":["Trinket_meatballs.png"],
             "Mobile_Media":"still",
             "Mobile_Assest":["Mobile_Image_003_2x.jpg"],
             "Custom_Label":"I Loved every second of it",
+            "Images":[
+                {
+                    "type":"still",
+                    "assets":["irene_fish.jpg"]
+                },
+                {
+                    "type":"slide",
+                    "assets":["Food_001.jpg","Food_002.jpg"]
+                },
+                {
+                    "type":null,
+                    "assets":null
+                }
+            ],
             "copy":[
                 {
                     "type":"normal",
@@ -89,14 +120,24 @@
         {
             "Label":"Section 3",
             "layout":"textLeft",
-            "heroType":"slide",
-            "hero":["irene_in_the_forrest.jpg","Image_011_cropped.jpg","bee_hives.jpg"],
-            "media":"still",
-            "Assets":["irene_in_the_flowers.jpg"],
             "trinkets":["arrow.png"],
             "Mobile_Media":"still",
             "Mobile_Assest":["Mobile_Image_006_2x.jpg"],
             "Custom_Label":"Greeks know how to cook",
+            "Images":[
+                {
+                    "type":"still",
+                    "assets":["Fisherman_in_a_Boat.jpg"]
+                },
+                {
+                    "type":"slide",
+                    "assets":["irene_in_the_flowers.jpg","Irene_in_a_forest.jpg"]
+                },
+                {
+                    "type":null,
+                    "assets":null
+                }
+            ],
             "copy":[
                 {
                     "type":"normal",
@@ -116,12 +157,22 @@
         {
             "Label":"Section 4",
             "layout":"textRight",
-            "heroType":"still",
-            "hero":["irene_image_013.jpg"],
-            "media":null,
-            "Assets":null,
             "trinkets":null,
             "Custom_Label":"Greece rewards the curious and those with a sense of adventure. ",
+            "Images":[
+                {
+                    "type":"still",
+                    "assets":["irene_image_013.jpg"]
+                },
+                {
+                    "type":null,
+                    "assets":null
+                },
+                {
+                    "type":null,
+                    "assets":null
+                }
+            ],
             "copy":[
                 {
                     "type":"normal",

@@ -1,20 +1,35 @@
 .section_1{
     padding-bottom: 55px;
-    .Hero{
-        .Faded_Gallery{
+   
+    .Copy{
+        margin:20px 40px 0 0px;
+        p{ }    
+    }
+
+    // Media and Images
+    #hero{
+        img{
             -webkit-transform: rotate(-2deg); 
             margin: 0 0 0 20px;
             width: 500px;
-            height: 667px;
+            height: auto;
             z-index: 99;
             position: relative;
         }
     }
-
-
-    .Copy{
-        margin:20px 40px 0 0px;
-        p{ }    
+    .Additional{
+        height: 220px;
+        
+        #Asset_Right{
+            width: 55%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            .Faded_Gallery{
+                width: 95%;
+                height: auto;
+            }
+        }
     }
     
     // Trinkets
@@ -25,14 +40,5 @@
         z-index: 999;
     }
 
-    .Additional{
-        img:nth-child(1){
-            float: right;
-            width: 55%;
-            margin-top: -230px;
-            margin-right: 10px;
-            z-index: 0;
-            position: relative;
-        }
-    }
+
 }

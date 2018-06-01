@@ -22,13 +22,13 @@ class App extends Component {
     return (
         
         <div id="Browser" className="App  container">  
-            <div class="d-md-none">
+            <div className="d-md-none">
                     <LoadingScreen 
                         logo="/assets/Canon-Logo.png"
                     />
                     <p className="text-center" >Refresh this page to view the content.</p>
             </div>
-            <div class="d-none d-md-block">
+            <div className="d-none d-md-block">
             <Header 
                 header={this.props.UI.Data.header} 
                 header_logo={this.props.UI.Data.header_logo}
@@ -43,14 +43,13 @@ class App extends Component {
                                     key={i}
                                     i={i}
                                     SectionData={section}
-                                    copy={section.copy}
+                                   
                                     Hero_Type={section.heroType}
                                     Hero_Assets={section.hero}
                                     Additional_type={section.media} 
                                     Additional_assets={section.Assets}
-                                    Trinkets={section.trinkets} 
+
                                     Path="/assets/"
-                                    label={section.Custom_Label}
                                 />
                               )
                         }
@@ -59,13 +58,13 @@ class App extends Component {
                                 <TextRight 
                                     key={i}
                                     i={i}
-                                    copy={section.copy}
+                                    SectionData={section}
+
                                     Hero_Type={section.heroType}
                                     Hero_Assets={section.hero}
                                     Additional_type={section.media} 
                                     Additional_assets={section.Assets}
-                                    Trinkets={section.trinkets} 
-                                    label={section.Custom_Label}
+                                    
                                     Path="/assets/"
                                 />
                               )

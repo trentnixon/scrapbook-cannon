@@ -1,32 +1,28 @@
 .section_2{
     padding-bottom: 55px;
-    .Hero{
-        .Faded_Gallery{
-        
-            margin: 0 0 0 20px;
-            width: 500px;
-            height: 667px;
-            z-index: 99;
-            position: relative;
-        }
-    }
+
 
     .Copy{
         padding:10px 0 0 50px;
         p{ }    
     }
     
+    h2.cursive{
+        margin: -50px 0 50px 50px ;
+        }
 
-    // Trinkets
-    .Trinket:nth-child(1){
-        bottom: 0px;
-        right: 29px;
-        width: 38%;
-        z-index: 999;
+    // Media and Images
+    .Hero{
+        img{
+            margin: 0 0 0 20px;
+            width: 500px;
+            height: auto;
+            z-index: 99;
+            position: relative;
+        }
     }
-
     .Additional{
-        img:nth-child(1){
+        #Asset_Left{
             -webkit-transform: rotate(-2deg); 
             float: left;
             width: 63%;
@@ -34,6 +30,20 @@
             z-index: 999;
             position: relative;
             margin-left: 12px;
+            .Faded_Gallery{    
+                width: 95%;
+                height: auto;}
         }
     }
+
+
+    // Trinkets
+    .Trinket:nth-child(1){
+        bottom: -100px;
+        right: 0px;
+        width: 45%;
+        z-index: 999;
+    }
+
+
 }

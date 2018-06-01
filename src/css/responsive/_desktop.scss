@@ -3,56 +3,184 @@
 @media only screen and (min-width : 1024px) and (max-width : 1200px) {
     /* Styles */
     #Browser {
-       .App-header h2{ margin:40px 0 -25px -45px}
-        .section_0 {
-            .Copy { margin: 30px 0px 0px 79px;}
-            .Additional{
-                img:nth-child(2){bottom: 75px;}
-                img:nth-child(1){bottom: 145px;}
+  
+    /* **************************************
+    * Header
+    ***************************************** */     
+       .App-header h2{ margin:40px 0 -25px -25px}
+        
+    /* **************************************
+        * SECTION 0
+    ***************************************** */ 
+       .section_0 {
+        .Copy { margin: 30px 0px 0px 79px;}
+        
+        .Hero{
+            img{
+                width: 430px;
+                height: auto;
+                margin-top: -164px;
             }
         }
+        
+        .Additional{
+             height: 510px;
+             #Asset_Left{
+                img{
+                    width: 61%;
+                    float: left;
+                    position: absolute;
+                    margin-left: 10px;
+                    left: 20px;
+                    bottom: 60px;
+                }
+            }
+            #Asset_Right{
+                .Faded_Gallery {
+                    width: 390px;
+                    height: auto;
+                }
+            }
+        }
+        .Trinket:nth-child(1) {
+            top: 130px;
+            right: -8px;
+        }
+        .Trinket:nth-child(2) {
+            bottom: 0;
+            left: 335px;
+        }
+        
+    }       
+
+
+
+    /* **************************************
+        * SECTION 1
+    ***************************************** */ 
         .section_1{
             .Copy { margin: 0px 25px 0px 15px; }
-
-            .Hero .Faded_Gallery{
-                width: 465px;
-                height: 620px;   
+            #hero{
+                img{
+                    width: 420px;
+                    height: auto;
+                }
             }
-            .Additional img:nth-child(1){margin-top: -145px;}
-            .Trinket:nth-child(1) { bottom: 60px; left: 55px;}
+            .Additional{
+                height: 280px;
+            }
+
+            .Trinket:nth-child(1) { 
+                bottom: 140px;
+                left: 100px;
+            }
         }
+
+
+        /* **************************************
+        * SECTION 2
+        ***************************************** */ 
         .section_2 {
-            .Hero .Faded_Gallery{
-                width: 465px;
-                height: 620px;  
-                margin:0px 0 0 -20px; 
-            }
-            .Copy {
-                padding: 0px 0 0 10px;
-            } 
-            .Additional img:nth-child(1){ margin-top: -110px; }
-            .Trinket:nth-child(1){ bottom: 65px; }
+            .Copy { padding: 0px 0 0 10px; } 
+            .cursive{ margin: -35px 0 35px 80px; font-size: 2.5em;}
+            .Trinket:nth-child(1){ bottom: 0px; }
         }
+
+
+        /* **************************************
+        * SECTION 3
+        ***************************************** */ 
         .section_3{ 
-            .Hero .Faded_Gallery {
-                width: 385px;
-                height: 508px;
-                margin: 50px 0 0 20px;
+            .cursive{ margin: -41px 0 50px 100px!important; font-size: 2.5em;}
+            #Asset_Left{
+                margin: 0px 5% 0 !important;
             }
-            .Copy {  margin: 0px 0 20px 10px; }
-            .Additional img:nth-child(1){ margin-top: 0; }
-
         }
 
+        /* **************************************
+            * SECTION 4
+        ***************************************** */ 
         .section_4{
-            .Hero img{ margin: -135px 0 0 41px; width: 385px; height: 508px;}
-            .Copy { margin: 10px 40px 0 0;}
+            .Hero img{ margin: -137px 0 0 80px; width: 385px; height: auto;}
+            .Copy { margin: -60px 40px 0 0;}
+            .cursive{ margin: 0px 0 0px 80px; top:-545px;}
         } 
     }
+}
+
+    @media only screen and (min-width : 992px) and (max-width : 1024px) {
+
+        #Browser {
+           
+            /* **************************************
+                * SECTION 0
+            ***************************************** */ 
+
+             .section_0 {
+                 .Copy { margin: 30px 0px 0px 79px;}
+                 .Additional{
+                    height: 510px;
+                    #Asset_Left{
+                       img{
+                           width: 61%;
+                           float: left;
+                           position: absolute;
+                           margin-left: 10px;
+                           left: 20px;
+                           bottom: 60px;
+                       }
+                   }
+                   #Asset_Right{
+                       .Faded_Gallery {
+                           width: 390px;
+                           height: auto;
+                       }
+                   }
+               }
+                 .Trinket:nth-child(1) {
+                     top: 130px;
+                     right: -8px;
+                 }
+             }
+            /* **************************************
+                * SECTION 1
+            ***************************************** */ 
+            .section_1{
+                .Copy { margin: 0px 25px 0px 15px; }
+                #hero{
+                    img{
+                        width: 420px;
+                        height: auto;
+                    }
+                }
+                .Additional{
+                    height: 280px;
+                }
+
+                .Trinket:nth-child(1) { 
+                    bottom: 140px;
+                    left: 100px;
+                }
+            }
+            /* **************************************
+            * SECTION 2
+             ***************************************** */ 
+                .section_2 {
+                    .Copy { padding: 0px 0 0 10px; } 
+                    .cursive{ margin: -35px 0 35px 80px; font-size: 2.5em;}
+                    .Trinket:nth-child(1){ 
+                            bottom: -80px;
+                            width: 40%;
+                            right: 20px;
+                        }
+                    }             
+                }
+
     }
-@media only screen  and (min-width : 1224px) {
+
+
+@media only screen  and (min-width : 768px) and (max-width : 992px) {
     /* Styles */
-    
     }
     
     /* Large screens ----------- */

@@ -1,39 +1,42 @@
 .section_3{
     padding-bottom: 15px;
+   
+
+    .Copy{
+        margin:0px 0 20px 50px;  
+    }
+
+    h2.cursive{
+        margin: -41px 0 50px 130px;
+        }
+    // Media and Images
     .Hero{
-        .Faded_Gallery{
-        
-            margin: 50px 0 0 20px;
+        img{
+            margin: 20px 0 0 50px;
             width: 385px;
-            height: 508px;
+            height: auto;
             z-index: 99;
             position: relative;
             -webkit-transform: rotate(3deg); 
         }
     }
-
-    .Copy{
-        margin:0px 0 20px 50px;  
+    .Additional{
+        height: 600px;
+        #Asset_Left{
+            width: 90%;
+            margin: -50px 5% 0;
+            position: relative;
+            .Faded_Gallery{    
+                width: 100%;
+                height: auto;}
+        }
     }
+
     // Trinkets
     .Trinket:nth-child(1){
         top: -19px;
         right: 36%;
         width: auto;
         z-index: 999;
-    }
-
-    .Additional{
-        img:nth-child(1){
-            float: left;
-            width: 97%;
-            margin-top: -47px;
-            position: relative;
-            margin-left: 12px;
-        }
-    }
-
-    .cursive{
-        margin: -41px 0 35px 130px;
     }
 }

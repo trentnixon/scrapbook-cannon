@@ -49,13 +49,13 @@
     .App .slick-slider .syncImage .sync {
       width: 70%; }
   .App .Faded_Gallery {
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 10px;
     border: 1px solid #fafafa;
     background-color: white;
-    -webkit-box-shadow: 0px 10px 10px 0px #cccccc;
-    -moz-box-shadow: 0px 10px 10px 0px #cccccc;
-    box-shadow: 0px 10px 10px 0px #cccccc; }
+    -webkit-box-shadow: 0px 1px 3px 0px #999999;
+    -moz-box-shadow: 0px 1px 3px 0px #999999;
+    box-shadow: 0px 1px 3px 0px #999999; }
 
 @keyframes zoom {
   0% {
@@ -71,9 +71,9 @@
     background-color: white;
     padding: 10px;
     border: 1px solid #f2f2f2;
-    -webkit-box-shadow: 0px 10px 10px 0px #cccccc;
-    -moz-box-shadow: 0px 10px 10px 0px #cccccc;
-    box-shadow: 0px 10px 10px 0px #cccccc; }
+    -webkit-box-shadow: 0px 1px 3px 0px #999999;
+    -moz-box-shadow: 0px 1px 3px 0px #999999;
+    box-shadow: 0px 1px 3px 0px #999999; }
   .App .Trinket {
     position: absolute; }
 
@@ -87,7 +87,7 @@
   #Browser .App-header h2 {
     text-align: center;
     font-size: 1.4em;
-    margin: 40px 0 -25px -70px;
+    margin: 40px 0 -25px -55px;
     font-weight: 100; }
   #Browser .App-header img {
     width: 100%; }
@@ -131,84 +131,78 @@
     width: 430px;
     height: 572px; }
 
-#Browser .section_0 .Faded_Gallery {
-  width: 430px;
-  height: 572px;
-  margin-top: -164px; }
-
-#Browser .section_0 .Copy {
-  margin: 0 0px 10px 180px; }
-
-#Browser .section_0 .Hero img {
-  width: 80%;
-  margin-top: -0px; }
-
-#Browser .section_0 .Trinket:nth-child(1) {
-  top: 265px;
-  right: 5px;
-  width: 27%; }
-
-#Browser .section_0 .Trinket:nth-child(2) {
-  bottom: 25px;
-  left: 400px;
-  width: 27%; }
-
-#Browser .section_0 .Additional {
-  height: 570px; }
-  #Browser .section_0 .Additional img:nth-child(1) {
-    width: 61%;
-    float: left;
-    position: absolute;
-    margin-left: 10px;
-    left: 20px;
-    bottom: 60px; }
-  #Browser .section_0 .Additional img:nth-child(2) {
-    width: 40%;
-    -webkit-transform: rotate(2deg);
-    position: absolute;
-    bottom: 0;
-    right: 40px; }
+#Browser .section_0 {
+  /************************************** */ }
+  #Browser .section_0 .Copy {
+    margin: 0 0px 10px 180px; }
+  #Browser .section_0 .Hero img {
+    width: 430px;
+    height: auto;
+    margin-top: -164px; }
+  #Browser .section_0 .Additional {
+    height: 590px; }
+    #Browser .section_0 .Additional #Asset_Left img {
+      width: 61%;
+      float: left;
+      position: absolute;
+      margin-left: 10px;
+      left: 20px;
+      bottom: 60px; }
+    #Browser .section_0 .Additional #Asset_Right {
+      width: 40%;
+      -webkit-transform: rotate(2deg);
+      position: absolute;
+      bottom: 0;
+      right: 40px; }
+  #Browser .section_0 .Trinket:nth-child(1) {
+    top: 40px;
+    right: 5px;
+    width: 27%; }
+  #Browser .section_0 .Trinket:nth-child(2) {
+    bottom: 25px;
+    left: 400px;
+    width: 27%; }
 
 #Browser .section_1 {
   padding-bottom: 55px; }
-  #Browser .section_1 .Hero .Faded_Gallery {
+  #Browser .section_1 .Copy {
+    margin: 20px 40px 0 0px; }
+  #Browser .section_1 #hero img {
     -webkit-transform: rotate(-2deg);
     margin: 0 0 0 20px;
     width: 500px;
-    height: 667px;
+    height: auto;
     z-index: 99;
     position: relative; }
-  #Browser .section_1 .Copy {
-    margin: 20px 40px 0 0px; }
+  #Browser .section_1 .Additional {
+    height: 220px; }
+    #Browser .section_1 .Additional #Asset_Right {
+      width: 55%;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+      #Browser .section_1 .Additional #Asset_Right .Faded_Gallery {
+        width: 95%;
+        height: auto; }
   #Browser .section_1 .Trinket:nth-child(1) {
     bottom: 40px;
     left: 105px;
     width: 39%;
     z-index: 999; }
-  #Browser .section_1 .Additional img:nth-child(1) {
-    float: right;
-    width: 55%;
-    margin-top: -230px;
-    margin-right: 10px;
-    z-index: 0;
-    position: relative; }
 
 #Browser .section_2 {
   padding-bottom: 55px; }
-  #Browser .section_2 .Hero .Faded_Gallery {
-    margin: 0 0 0 20px;
-    width: 500px;
-    height: 667px;
-    z-index: 99;
-    position: relative; }
   #Browser .section_2 .Copy {
     padding: 10px 0 0 50px; }
-  #Browser .section_2 .Trinket:nth-child(1) {
-    bottom: 0px;
-    right: 29px;
-    width: 38%;
-    z-index: 999; }
-  #Browser .section_2 .Additional img:nth-child(1) {
+  #Browser .section_2 h2.cursive {
+    margin: -50px 0 50px 50px; }
+  #Browser .section_2 .Hero img {
+    margin: 0 0 0 20px;
+    width: 500px;
+    height: auto;
+    z-index: 99;
+    position: relative; }
+  #Browser .section_2 .Additional #Asset_Left {
     -webkit-transform: rotate(-2deg);
     float: left;
     width: 63%;
@@ -216,53 +210,66 @@
     z-index: 999;
     position: relative;
     margin-left: 12px; }
+    #Browser .section_2 .Additional #Asset_Left .Faded_Gallery {
+      width: 95%;
+      height: auto; }
+  #Browser .section_2 .Trinket:nth-child(1) {
+    bottom: -100px;
+    right: 0px;
+    width: 45%;
+    z-index: 999; }
 
 #Browser .section_3 {
   padding-bottom: 15px; }
-  #Browser .section_3 .Hero .Faded_Gallery {
-    margin: 50px 0 0 20px;
+  #Browser .section_3 .Copy {
+    margin: 0px 0 20px 50px; }
+  #Browser .section_3 h2.cursive {
+    margin: -41px 0 50px 130px; }
+  #Browser .section_3 .Hero img {
+    margin: 20px 0 0 50px;
     width: 385px;
-    height: 508px;
+    height: auto;
     z-index: 99;
     position: relative;
     -webkit-transform: rotate(3deg); }
-  #Browser .section_3 .Copy {
-    margin: 0px 0 20px 50px; }
+  #Browser .section_3 .Additional {
+    height: 600px; }
+    #Browser .section_3 .Additional #Asset_Left {
+      width: 90%;
+      margin: -50px 5% 0;
+      position: relative; }
+      #Browser .section_3 .Additional #Asset_Left .Faded_Gallery {
+        width: 100%;
+        height: auto; }
   #Browser .section_3 .Trinket:nth-child(1) {
     top: -19px;
     right: 36%;
     width: auto;
     z-index: 999; }
-  #Browser .section_3 .Additional img:nth-child(1) {
-    float: left;
-    width: 97%;
-    margin-top: -47px;
-    position: relative;
-    margin-left: 12px; }
-  #Browser .section_3 .cursive {
-    margin: -41px 0 35px 130px; }
 
 #Browser .section_4 {
   padding-bottom: 65px; }
+  #Browser .section_4 .Copy {
+    margin: 20px 100px 0 0; }
+  #Browser .section_4 h2.cursive {
+    position: absolute;
+    top: -585px;
+    width: 40%;
+    left: 35px; }
+  #Browser .section_4 .Additional {
+    display: none; }
   #Browser .section_4 .Hero img {
     margin: -160px 0 0 120px;
     width: 385px;
-    height: 508px;
+    height: auto;
     z-index: 99;
     position: relative;
     -webkit-transform: rotate(-3deg); }
-  #Browser .section_4 .Copy {
-    margin: 20px 40px 0 0; }
   #Browser .section_4 .Trinket:nth-child(1) {
     bottom: 0px;
     right: 29px;
     width: 38%;
     z-index: 999; }
-  #Browser .section_4 .Additional {
-    display: none; }
-  #Browser .section_4 .cursive {
-    position: absolute;
-    top: -600px; }
 
 #Mobile .App-header {
   margin-bottom: 20px; }
@@ -328,44 +335,52 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* Styles */
-  #Browser .section_0 .Copy {
-    margin: 30px 0px 0px 79px; }
-  #Browser .section_0 .Additional img:nth-child(2) {
-    bottom: 75px; }
-  #Browser .section_0 .Additional img:nth-child(1) {
-    bottom: 145px; }
-  #Browser .section_1 .Copy {
-    margin: 0px 25px 0px 15px; }
-  #Browser .section_1 .Hero .Faded_Gallery {
-    width: 465px;
-    height: 620px; }
-  #Browser .section_1 .Additional img:nth-child(1) {
-    margin-top: -145px; }
-  #Browser .section_1 .Trinket:nth-child(1) {
-    bottom: 60px;
-    left: 55px; }
-  #Browser .section_2 .Hero .Faded_Gallery {
-    width: 465px;
-    height: 620px;
-    margin: 0px 0 0 -20px; }
-  #Browser .section_2 .Copy {
-    padding: 0px 0 0 10px; }
-  #Browser .section_2 .Additional img:nth-child(1) {
-    margin-top: -110px; }
-  #Browser .section_2 .Trinket:nth-child(1) {
-    bottom: 65px;
-    right: 0;
-    width: 54%; }
-  #Browser .section_3 .Copy {
-    margin: 0px 0 20px 10px; }
-  #Browser .section_3 .Additional img:nth-child(1) {
-    margin-top: 0; }
-  #Browser .section_4 .Hero img {
-    margin: -135px 0 0 41px;
-    width: 385px;
-    height: 508px; }
-  #Browser .section_4 .Copy {
-    margin: 10px 40px 0 0; } }
+  #Browser {
+    /* **************************************
+    * SECTION 0
+    ***************************************** */
+    /* **************************************
+    * SECTION 1
+    ***************************************** */
+    /* **************************************
+        * SECTION 2
+        ***************************************** */
+    /* **************************************
+        * SECTION 3
+        ***************************************** */
+    /* **************************************
+            * SECTION 4
+        ***************************************** */ }
+    #Browser .App-header h2 {
+      margin: 40px 0 -25px -25px; }
+    #Browser .section_0 .Copy {
+      margin: 30px 0px 0px 79px; }
+    #Browser .section_1 {
+      margin: 60px 0 0 0; }
+    #Browser .section_2 .Hero img {
+      width: 400px; }
+    #Browser .section_2 .Additional {
+      height: 385px; }
+      #Browser .section_2 .Additional #Asset_Left {
+        margin-top: -80px; }
+    #Browser .section_2 .Trinket:nth-child(1) {
+      bottom: -25px;
+      width: 50%;
+      right: 0; }
+    #Browser .section_3 .cursive {
+      margin: -41px 0 50px 100px !important;
+      font-size: 2.5em; }
+    #Browser .section_3 #Asset_Left {
+      margin: 0px 5% 0 !important; }
+    #Browser .section_4 .Hero img {
+      margin: -137px 0 0 80px;
+      width: 385px;
+      height: auto; }
+    #Browser .section_4 .Copy {
+      margin: -60px 40px 0 0; }
+    #Browser .section_4 .cursive {
+      margin: 0px 0 0px 80px;
+      top: -545px; } }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -374,63 +389,109 @@
 /* iPads (portrait) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   /* Styles */
-  #Browser .App-header h2 {
-    margin: 40px 0 -25px -30px; }
-  #Browser .section_0 .Copy {
-    margin: 30px 0px 0px 0px; }
-  #Browser .section_0 .Additional {
-    height: 355px;
-    margin-bottom: 40px; }
-    #Browser .section_0 .Additional img:nth-child(2) {
-      bottom: 5px; }
-    #Browser .section_0 .Additional img:nth-child(1) {
-      bottom: 45px; }
-  #Browser .section_0 .Faded_Gallery {
-    width: 340px;
-    height: 454px;
-    margin: -136px 0 0 -5px; }
-  #Browser .section_0 .Trinket:nth-child(2) {
-    bottom: 25px;
-    left: 35%;
-    width: 27%; }
-  #Browser .section_1 {
-    padding-bottom: 25px; }
-    #Browser .section_1 .Copy {
-      margin: 0px; }
-    #Browser .section_1 .Hero .Faded_Gallery {
-      width: 325px;
-      height: 430px; }
-    #Browser .section_1 .Additional img:nth-child(1) {
-      margin-top: -5px; }
-    #Browser .section_1 .Trinket:nth-child(1) {
-      bottom: 105px;
-      left: 36px; }
-  #Browser .section_2 .Hero .Faded_Gallery {
-    width: 325px;
-    height: 430px;
-    margin: 80px 0 0 0; }
-  #Browser .section_2 .Copy {
-    padding: 0px; }
-  #Browser .section_2 .Additional img:nth-child(1) {
-    margin-top: -10px; }
-  #Browser .section_2 .Trinket:nth-child(1) {
-    bottom: 65px; }
-  #Browser .section_3 .Hero .Faded_Gallery {
-    width: 325px;
-    height: 430px;
-    margin: 80px 0 0 0; }
-  #Browser .section_3 .Copy {
-    margin: 0px; }
-  #Browser .section_3 .Additional img:nth-child(1) {
-    margin-top: 0; }
-  #Browser .section_4 {
-    padding-bottom: 0; }
-    #Browser .section_4 .Hero img {
-      margin: -135px 0 0 41px;
-      width: 310px;
-      height: auto; }
-    #Browser .section_4 .Copy {
+  #Browser {
+    /* **************************************
+    * SECTION 0
+    ***************************************** */
+    /* **************************************
+        * SECTION 1
+        ***************************************** */
+    /* **************************************
+        * SECTION 2
+        ***************************************** */
+    /* **************************************
+        * SECTION 3
+        ***************************************** */
+    /* **************************************
+            * SECTION 4
+        ***************************************** */ }
+    #Browser .App-header h2 {
+      margin: 40px 0 -25px -10px; }
+    #Browser .section_0 .Hero img {
+      width: 332px;
+      height: auto;
+      margin-top: -110px; }
+    #Browser .section_0 .Copy {
+      margin: 35px 0 0 0; }
+    #Browser .section_0 .Additional {
+      height: 380px;
+      margin-bottom: 50px; }
+      #Browser .section_0 .Additional #Asset_Left img {
+        width: 61%;
+        float: left;
+        position: absolute;
+        margin-left: 10px;
+        left: 20px;
+        bottom: 60px; }
+      #Browser .section_0 .Additional #Asset_Right .Faded_Gallery {
+        width: 310px;
+        height: auto; }
+    #Browser .section_0 .Trinket:nth-child(1) {
+      top: 130px;
+      right: -8px; }
+    #Browser .section_0 .Trinket:nth-child(2) {
+      bottom: 50px;
+      left: 250px; }
+    #Browser .section_1 {
       margin: 0; }
+      #Browser .section_1 .Copy {
+        margin: -30px 25px 0px 15px; }
+        #Browser .section_1 .Copy p {
+          padding: 2px 0; }
+      #Browser .section_1 #hero img {
+        width: 340px;
+        height: auto; }
+      #Browser .section_1 .Additional {
+        height: 420px; }
+        #Browser .section_1 .Additional #Asset_Right {
+          width: 80%; }
+      #Browser .section_1 .Trinket:nth-child(1) {
+        left: 30px;
+        top: 435px; }
+    #Browser .section_2 h2.cursive {
+      margin: -30px 0 50px 46px; }
+    #Browser .section_2 .Copy p {
+      padding: 2px 0; }
+    #Browser .section_2 .Hero img {
+      width: 330px;
+      margin: 50px 0 0 0; }
+    #Browser .section_2 .Additional {
+      height: 385px; }
+      #Browser .section_2 .Additional #Asset_Left {
+        margin-top: 0px; }
+    #Browser .section_2 .Trinket:nth-child(1) {
+      bottom: -25px;
+      width: 50%;
+      right: -25px; }
+    #Browser .section_3 .Copy {
+      margin: 0; }
+    #Browser .section_3 .cursive {
+      margin: -41px 0 50px 100px !important;
+      font-size: 2.5em; }
+    #Browser .section_3 .Additional {
+      height: 450px; }
+    #Browser .section_3 .Hero img {
+      width: 330px;
+      margin: 50px 0 0 0; }
+    #Browser .section_3 #Asset_Left {
+      margin: 0px 5% 0 !important; }
+    #Browser .section_3 .Trinket:nth-child(1) {
+      top: 10px; }
+    #Browser .section_4 {
+      padding-bottom: 0; }
+      #Browser .section_4 .Hero img {
+        margin: -135px 0 0 10px;
+        width: 300px;
+        height: auto; }
+      #Browser .section_4 .Copy {
+        margin: -60px 40px 0 0; }
+        #Browser .section_4 .Copy p {
+          padding: 2px 0; }
+      #Browser .section_4 .cursive {
+        margin: 0px 0 0px 80px;
+        top: -450px !important;
+        font-size: 2.2em;
+        line-height: 1em; }
   .App-footer h2 {
     font-size: 2em; }
   .App-footer .btn {
@@ -448,50 +509,132 @@
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
   /* Styles */
-  #Browser .App-header h2 {
-    margin: 40px 0 -25px -45px; }
-  #Browser .section_0 .Copy {
-    margin: 30px 0px 0px 79px; }
-  #Browser .section_0 .Additional img:nth-child(2) {
-    bottom: 75px; }
-  #Browser .section_0 .Additional img:nth-child(1) {
-    bottom: 145px; }
-  #Browser .section_1 .Copy {
-    margin: 0px 25px 0px 15px; }
-  #Browser .section_1 .Hero .Faded_Gallery {
-    width: 465px;
-    height: 620px; }
-  #Browser .section_1 .Additional img:nth-child(1) {
-    margin-top: -145px; }
-  #Browser .section_1 .Trinket:nth-child(1) {
-    bottom: 60px;
-    left: 55px; }
-  #Browser .section_2 .Hero .Faded_Gallery {
-    width: 465px;
-    height: 620px;
-    margin: 0px 0 0 -20px; }
-  #Browser .section_2 .Copy {
-    padding: 0px 0 0 10px; }
-  #Browser .section_2 .Additional img:nth-child(1) {
-    margin-top: -110px; }
-  #Browser .section_2 .Trinket:nth-child(1) {
-    bottom: 65px; }
-  #Browser .section_3 .Hero .Faded_Gallery {
-    width: 385px;
-    height: 508px;
-    margin: 50px 0 0 20px; }
-  #Browser .section_3 .Copy {
-    margin: 0px 0 20px 10px; }
-  #Browser .section_3 .Additional img:nth-child(1) {
-    margin-top: 0; }
-  #Browser .section_4 .Hero img {
-    margin: -135px 0 0 41px;
-    width: 385px;
-    height: 508px; }
-  #Browser .section_4 .Copy {
-    margin: 10px 40px 0 0; } }
+  #Browser {
+    /* **************************************
+    * Header
+    ***************************************** */
+    /* **************************************
+        * SECTION 0
+    ***************************************** */
+    /* **************************************
+        * SECTION 1
+    ***************************************** */
+    /* **************************************
+        * SECTION 2
+        ***************************************** */
+    /* **************************************
+        * SECTION 3
+        ***************************************** */
+    /* **************************************
+            * SECTION 4
+        ***************************************** */ }
+    #Browser .App-header h2 {
+      margin: 40px 0 -25px -25px; }
+    #Browser .section_0 .Copy {
+      margin: 30px 0px 0px 79px; }
+    #Browser .section_0 .Hero img {
+      width: 430px;
+      height: auto;
+      margin-top: -164px; }
+    #Browser .section_0 .Additional {
+      height: 510px; }
+      #Browser .section_0 .Additional #Asset_Left img {
+        width: 61%;
+        float: left;
+        position: absolute;
+        margin-left: 10px;
+        left: 20px;
+        bottom: 60px; }
+      #Browser .section_0 .Additional #Asset_Right .Faded_Gallery {
+        width: 390px;
+        height: auto; }
+    #Browser .section_0 .Trinket:nth-child(1) {
+      top: 130px;
+      right: -8px; }
+    #Browser .section_0 .Trinket:nth-child(2) {
+      bottom: 0;
+      left: 335px; }
+    #Browser .section_1 .Copy {
+      margin: 0px 25px 0px 15px; }
+    #Browser .section_1 #hero img {
+      width: 420px;
+      height: auto; }
+    #Browser .section_1 .Additional {
+      height: 280px; }
+    #Browser .section_1 .Trinket:nth-child(1) {
+      bottom: 140px;
+      left: 100px; }
+    #Browser .section_2 .Copy {
+      padding: 0px 0 0 10px; }
+    #Browser .section_2 .cursive {
+      margin: -35px 0 35px 80px;
+      font-size: 2.5em; }
+    #Browser .section_2 .Trinket:nth-child(1) {
+      bottom: 0px; }
+    #Browser .section_3 .cursive {
+      margin: -41px 0 50px 100px !important;
+      font-size: 2.5em; }
+    #Browser .section_3 #Asset_Left {
+      margin: 0px 5% 0 !important; }
+    #Browser .section_4 .Hero img {
+      margin: -137px 0 0 80px;
+      width: 385px;
+      height: auto; }
+    #Browser .section_4 .Copy {
+      margin: -60px 40px 0 0; }
+    #Browser .section_4 .cursive {
+      margin: 0px 0 0px 80px;
+      top: -545px; } }
 
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  #Browser {
+    /* **************************************
+                * SECTION 0
+            ***************************************** */
+    /* **************************************
+                * SECTION 1
+            ***************************************** */
+    /* **************************************
+            * SECTION 2
+             ***************************************** */ }
+    #Browser .section_0 .Copy {
+      margin: 30px 0px 0px 79px; }
+    #Browser .section_0 .Additional {
+      height: 510px; }
+      #Browser .section_0 .Additional #Asset_Left img {
+        width: 61%;
+        float: left;
+        position: absolute;
+        margin-left: 10px;
+        left: 20px;
+        bottom: 60px; }
+      #Browser .section_0 .Additional #Asset_Right .Faded_Gallery {
+        width: 390px;
+        height: auto; }
+    #Browser .section_0 .Trinket:nth-child(1) {
+      top: 130px;
+      right: -8px; }
+    #Browser .section_1 .Copy {
+      margin: 0px 25px 0px 15px; }
+    #Browser .section_1 #hero img {
+      width: 420px;
+      height: auto; }
+    #Browser .section_1 .Additional {
+      height: 280px; }
+    #Browser .section_1 .Trinket:nth-child(1) {
+      bottom: 140px;
+      left: 100px; }
+    #Browser .section_2 .Copy {
+      padding: 0px 0 0 10px; }
+    #Browser .section_2 .cursive {
+      margin: -35px 0 35px 80px;
+      font-size: 2.5em; }
+    #Browser .section_2 .Trinket:nth-child(1) {
+      bottom: -80px;
+      width: 40%;
+      right: 20px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   /* Styles */ }
 
 /* Large screens ----------- */

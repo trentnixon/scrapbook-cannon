@@ -1,35 +1,37 @@
 .section_4{
     padding-bottom: 65px;
+
+
+    .Copy{
+        margin:20px 100px 0 0;
+        p{ }    
+    }
+    h2.cursive{
+            position: absolute;
+            top: -585px;
+            width: 40%;
+            left: 35px;
+        }
+    
+    .Additional{
+        display: none;
+    }
+
     .Hero{
         img{
             margin: -160px 0 0 120px;
             width: 385px;
-            height: 508px;
+            height: auto;
             z-index: 99;
             position: relative;
             -webkit-transform: rotate(-3deg); 
         }
     }
-
-    .Copy{
-        margin:20px 40px 0 0;
-        p{ }    
-    }
-
-    // Trinkets
-    .Trinket:nth-child(1){
-        bottom: 0px;
-        right: 29px;
-        width: 38%;
-        z-index: 999;
-    }
-
-    .Additional{
-        display: none;
-    }
-
-    .cursive{
-        position: absolute;
-        top: -600px;
-    }
+        // Trinkets
+        .Trinket:nth-child(1){
+            bottom: 0px;
+            right: 29px;
+            width: 38%;
+            z-index: 999;
+        }
 }

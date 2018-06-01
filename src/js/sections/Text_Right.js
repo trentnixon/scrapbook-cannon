@@ -4,33 +4,43 @@ import Media from "../sections/Media";
 import Trinkets from "../components/Trinkets";
 import CustomLabel from "../sections/Custom_Labels";
 
-
+let Data;
 export default class Text_Left extends Component {
+    componentWillMount(){  Data=this.props.SectionData;}
   render() {
-      
+    
         return ( 
             <section className={"section_"+this.props.i} >
                 <div className="row">
+                <div className="col-12">
+                    <CustomLabel label={Data.Custom_Label} />
+                </div>
                 <div className="col-12 col-md-6 Hero">
-                <CustomLabel label={this.props.label} />
                     <Media 
-                        type={this.props.Hero_Type} 
-                        assets={this.props.Hero_Assets}
+                        type={Data.Images["0"].type} 
+                        assets={Data.Images["0"].assets}
+                        id="hero"
                     />
                 </div>
                 <div className="col-12 col-md-6"> 
-                    <Paragraph data={this.props.copy} />
+                        <Paragraph data={Data.copy} />
                 </div>
                 
                 <div className="col-12 col-md-12 Additional">
+                <Media 
+                        type={Data.Images["1"].type} 
+                        assets={Data.Images["1"].assets}
+                        id="Asset_Left"
+                    />
                     <Media 
-                        type={this.props.Additional_type} 
-                        assets={this.props.Additional_assets}
+                        type={Data.Images["2"].type} 
+                        assets={Data.Images["2"].assets}
+                        id="Asset_Right"
                     />
                 </div>
 
                 <Trinkets 
-                    Trinkets={this.props.Trinkets} 
+                    Trinkets={Data.trinkets} 
                     Path={this.props.Path}
                 />
                 </div>

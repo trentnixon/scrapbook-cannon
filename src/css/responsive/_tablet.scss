@@ -5,46 +5,65 @@
     /* Styles */
 
     #Browser {
-      
+  
+      .App-header h2{ margin:40px 0 -25px -25px}
+    /* **************************************
+    * SECTION 0
+    ***************************************** */      
         .section_0 {
             .Copy { margin: 30px 0px 0px 79px;}
             .Additional{
-                img:nth-child(2){bottom: 75px;}
-                img:nth-child(1){bottom: 145px;}
+           
             }
         }
-        .section_1{
-            .Copy { margin: 0px 25px 0px 15px; }
 
-            .Hero .Faded_Gallery{
-                width: 465px;
-                height: 620px;   
-            }
-            .Additional img:nth-child(1){margin-top: -145px;}
-            .Trinket:nth-child(1) { bottom: 60px; left: 55px;}
-        }
+    /* **************************************
+    * SECTION 1
+    ***************************************** */  
+
+    .section_1{  margin: 60px 0 0 0; }
+
+
+        /* **************************************
+        * SECTION 2
+        ***************************************** */ 
         .section_2 {
-            .Hero .Faded_Gallery{
-                width: 465px;
-                height: 620px;  
-                margin:0px 0 0 -20px; 
+            .Hero{
+                img{
+                    width: 400px;
+                }
             }
-            .Copy {
-                padding: 0px 0 0 10px;
-            } 
-            .Additional img:nth-child(1){ margin-top: -110px; }
-            .Trinket:nth-child(1){ bottom: 65px;   right:0;  width: 54%; }
-        }
-        .section_3{ 
             
-            .Copy {  margin: 0px 0 20px 10px; }
-            .Additional img:nth-child(1){ margin-top: 0; }
+            .Additional {
+                height: 385px;
+                #Asset_Left{margin-top: -80px;}
+            }
+            .Trinket:nth-child(1) {
+                bottom: -25px;
+                width: 50%;
+                right: 0;
+            }   
+        }
+ 
 
+
+        /* **************************************
+        * SECTION 3
+        ***************************************** */ 
+        .section_3{ 
+            .cursive{ margin: -41px 0 50px 100px!important; font-size: 2.5em;}
+            #Asset_Left{
+                margin: 0px 5% 0 !important;
+            }
         }
 
+        /* **************************************
+            * SECTION 4
+        ***************************************** */ 
         .section_4{
-            .Hero img{ margin: -135px 0 0 41px; width: 385px; height: 508px;}
-            .Copy { margin: 10px 40px 0 0;}
+            .Hero img{ margin: -137px 0 0 80px; width: 385px; height: auto;}
+            .Copy { margin: -60px 40px 0 0;}
+            .cursive{ margin: 0px 0 0px 80px; top:-545px;}
         } 
     }
 
@@ -56,60 +75,162 @@
     }
     
 
+
+
+
+
+
+    
     /* iPads (portrait) ----------- */
     @media only screen and (min-width : 768px) and (max-width : 1023px) and (orientation : portrait) {
     /* Styles */
     
     #Browser {
-        .App-header h2{ margin:40px 0 -25px -30px}
+      
+        .App-header h2{ margin:40px 0 -25px -10px}
 
+  
+     /* **************************************
+    * SECTION 0
+    ***************************************** */  
         .section_0 {
-            .Copy { margin: 30px 0px 0px 0px;}
-            .Additional{
-                height: 355px;
-                margin-bottom: 40px;
-
-                img:nth-child(2){bottom: 5px;}
-                img:nth-child(1){bottom: 45px;}
+            .Hero img {
+                width: 332px;
+                height: auto;
+                margin-top: -110px;
             }
-            .Faded_Gallery {
-                width: 340px;
-                height: 454px;
-                margin: -136px 0 0 -5px;
-            }
-            .Trinket:nth-child(2) {
-                bottom: 25px;
-                left: 35%;
-                width: 27%;
+            .Copy { margin: 35px 0 0 0; }
+             .Additional{
+                 height: 380px;
+                 margin-bottom: 50px;
+                 #Asset_Left{
+                    img{
+                        width: 61%;
+                        float: left;
+                        position: absolute;
+                        margin-left: 10px;
+                        left: 20px;
+                        bottom: 60px;
+                    }
+                }
+                #Asset_Right{
+                    .Faded_Gallery {
+                        width: 310px;
+                        height: auto;
+                    }
+                }
+             }
+             .Trinket:nth-child(1) {
+                 top: 130px;
+                 right: -8px;
+             }
+             .Trinket:nth-child(2) {
+                bottom: 50px;
+                left: 250px;
             }
         }
-        .section_1{
-            padding-bottom:25px;
-            .Copy { margin: 0px; }
 
-            .Hero .Faded_Gallery{width: 325px;  height: 430px; }
-            .Additional img:nth-child(1){margin-top: -5px;}
-            .Trinket:nth-child(1) {     bottom: 105px; left: 36px;}
-        }
+
+        /* **************************************
+        * SECTION 1
+        ***************************************** */ 
+            .section_1{
+                margin: 0;
+                .Copy { margin: -30px 25px 0px 15px; 
+                    p{ padding: 2px 0;}    
+                }
+                #hero{
+                    img{
+                        width: 340px;
+                        height: auto;
+                    }
+                }
+                .Additional{
+                    height: 420px;
+                    #Asset_Right{ width: 80%;}
+                }
+
+                .Trinket:nth-child(1) { 
+                    left: 30px;
+                    top: 435px;
+                }
+            } 
+
+
+        /* **************************************
+        * SECTION 2
+        ***************************************** */ 
         .section_2 {
-            .Hero .Faded_Gallery{width: 325px;  height: 430px;  margin:80px 0 0 0; }
-            .Copy { padding: 0px;  } 
-            .Additional img:nth-child(1){ margin-top: -10px; }
-            .Trinket:nth-child(1){ bottom: 65px; }
+            h2.cursive {
+                margin: -30px 0 50px 46px;
+            }
+            .Copy { 
+                p{ padding: 2px 0;}    
+            }
+            .Hero{
+                img{
+                    width: 330px;
+                    margin: 50px 0 0 0;
+                }
+            }
+            
+            .Additional {
+                height: 385px;
+                #Asset_Left{margin-top: 0px;}
+            }
+            .Trinket:nth-child(1) {
+                bottom: -25px;
+                width: 50%;
+                right: -25px;
+            }   
         }
+
+
+        /* **************************************
+        * SECTION 3
+        ***************************************** */ 
         .section_3{ 
-            .Hero .Faded_Gallery{width: 325px;  height: 430px;  margin:80px 0 0 0; }
-            .Copy {  margin:0px; }
-            .Additional img:nth-child(1){ margin-top: 0; }
-
+             .Copy { margin: 0;}
+            .cursive{ margin: -41px 0 50px 100px!important; font-size: 2.5em;}
+            .Additional {
+                height: 450px;
+            }
+            .Hero{
+                img{
+                    width: 330px;
+                    margin: 50px 0 0 0;
+                }
+            }
+            #Asset_Left{
+                margin: 0px 5% 0 !important;
+            }
+            .Trinket:nth-child(1) {
+                top:10px;
+            }   
         }
 
+        /* **************************************
+            * SECTION 4
+        ***************************************** */ 
         .section_4{
-            .Hero img{ margin: -135px 0 0 41px; width: 310px;height: auto;}
-            .Copy { margin: 0;}
             padding-bottom: 0;
+            
+            .Hero img{ margin: -135px 0 0 10px; width: 300px; height: auto;}
+            .Copy { margin: -60px 40px 0 0;
+                p{ padding:2px 0}}
+            .cursive{ 
+                    margin: 0px 0 0px 80px; 
+                    top:-450px !important;
+                    font-size: 2.2em;
+                    line-height: 1em;
+                }
         } 
     }
+
+
+
+
+
         .App-footer{
             h2{
                 font-size: 2em;

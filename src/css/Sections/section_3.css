@@ -1,24 +1,27 @@
 .section_3 {
   padding-bottom: 15px; }
-  .section_3 .Hero .Faded_Gallery {
-    margin: 50px 0 0 20px;
+  .section_3 .Copy {
+    margin: 0px 0 20px 50px; }
+  .section_3 h2.cursive {
+    margin: -41px 0 50px 130px; }
+  .section_3 .Hero img {
+    margin: 20px 0 0 50px;
     width: 385px;
-    height: 508px;
+    height: auto;
     z-index: 99;
     position: relative;
     -webkit-transform: rotate(3deg); }
-  .section_3 .Copy {
-    margin: 0px 0 20px 50px; }
+  .section_3 .Additional {
+    height: 600px; }
+    .section_3 .Additional #Asset_Left {
+      width: 90%;
+      margin: -50px 5% 0;
+      position: relative; }
+      .section_3 .Additional #Asset_Left .Faded_Gallery {
+        width: 100%;
+        height: auto; }
   .section_3 .Trinket:nth-child(1) {
     top: -19px;
     right: 36%;
     width: auto;
     z-index: 999; }
-  .section_3 .Additional img:nth-child(1) {
-    float: left;
-    width: 97%;
-    margin-top: -47px;
-    position: relative;
-    margin-left: 12px; }
-  .section_3 .cursive {
-    margin: -41px 0 35px 130px; }
