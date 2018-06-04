@@ -2,14 +2,14 @@ h1{
     font-family: $cursive; 
 }
 h2{
-    font-family:$serif;
+    font-family:$Header;
 }
 h3{}
 
 p{
-    font-size: 1em;
-    line-height: 1.6em;
-    font-family:$serif;
+    font-size: $p-size;
+    line-height: $p-lineheight;
+    font-family:$Regular;
     padding: 2px 15px;
     text-rendering:optimizeLegibility;
 }

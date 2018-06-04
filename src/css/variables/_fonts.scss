@@ -1,12 +1,12 @@
 
-//$cursive: "Walter Turncoat", cursive;
-$sans-serif: "TS3 Text Sans", sans-serif;
-$serif: "GH Guardian Headline", serif;
+@import "../font/_web-fonts.scss";
+
+$Header: "Guardian Headline Regular", sans-serif;
+$Regular: "Guardian Headline Regular", serif;
 $cursive : 'Caveat', cursive;
 
 $h1-size:1.5em;
 $h1-lineheight:2em;
 
-$p-size:1.2em;
+$p-size:1em;
 $p-lineheight:1.5em;
-

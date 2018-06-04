@@ -8,6 +8,15 @@
   }
 
   @font-face {
+    font-family: "Guardian Headline Regular";
+    src: url("https://interactive.guim.co.uk/fonts/garnett/GHGuardianHeadline-Regular.woff2") format("woff2"),
+    url("https://interactive.guim.co.uk/fonts/garnett/GHGuardianHeadline-Regular.woff") format("woff"),
+    url("https://interactive.guim.co.uk/fonts/garnett/GHGuardianHeadline-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+  @font-face {
     font-display: swap;
     font-family: "TS3 Text Sans";
     src: url("#{$cdn}fonts/TS3TextSans.woff2") format("woff2"),
@@ -22,5 +31,5 @@
          url("#{$cdn}fonts/TS3TextSans-Bold.woff") format("woff");
   }
 
-  @import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+  @import url(https://fonts.googleapis.com/css?family=Caveat);
 }
