@@ -6,9 +6,12 @@ import CustomLabel from "../sections/Custom_Labels";
 
 let Data;
 export default class Text_Left extends Component {
-  componentWillMount(){  Data=this.props.SectionData;}
+  componentWillMount(){  
+       
+    Data=this.props.SectionData;
+    }
   render() {
-    console.log(Data.Images["0"].type);
+    // console.log(Data.Images["0"].type);
         return ( 
             <section className={"section_"+this.props.i} >
                 <div className="row">
@@ -23,6 +26,7 @@ export default class Text_Left extends Component {
                         type={Data.Images["0"].type} 
                         assets={Data.Images["0"].assets}
                         id="hero"
+                        Path={this.props.Path}
                     />
                 </div>
                 <div className="col-12 col-md-12 Additional">
@@ -30,11 +34,13 @@ export default class Text_Left extends Component {
                         type={Data.Images["1"].type} 
                         assets={Data.Images["1"].assets}
                         id="Asset_Left"
+                        Path={this.props.Path}
                     />
                     <Media 
                         type={Data.Images["2"].type} 
                         assets={Data.Images["2"].assets}
                         id="Asset_Right"
+                        Path={this.props.Path}
                     />
                 </div>
 

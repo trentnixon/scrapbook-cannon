@@ -4,7 +4,7 @@ import store from "../store/store";
 export function ScrapBook(){
 
     /** Set Properties */
-        this.path="/json/irene.json"
+        this.path="https://interactive.guim.co.uk/embed/2018/06/scrapbook-cannon/irene/json/irene.json"
 
     /** Set Methods */
 

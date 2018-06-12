@@ -103,15 +103,22 @@
             "copy":[
                 {
                     "type":"normal",
-                    "copy":"I’ve always loved Greek food… what’s not to love?! And I love to cook! But unfortunately I don’t get to do it too much at home anymore, once the kids grow up and moved out… I didn’t have the excuse to cook big family meals anymore. "
+                    "copy":"I’ve always loved Greek food… what’s not to love?! And I love to cook! But unfortunately I don’t get to do it too much at home anymore, once the kids grow up and moved out… I didn’t have the excuse to cook big family meals anymore."
                 },
                 {
                     "type":"normal",
-                    "copy":"Greek food brings people together.  In Athens I just loved the incredible platters of slow cooked meats and seafood and vegetables that friends new and old would sit around for hours. We’d drink, and talk, and laugh and watch the world go by."
+                    "copy":"Greek food brings people together. In Athens I just loved the incredible platters of slow cooked meats and seafood and vegetables that friends new and old would sit around for hours. We’d drink, and talk, and laugh and watch the world go by."
                 },
                 {
                     "type":"normal",
-                    "copy":"I’m a little biased... but Greek food is the best in the world, the flavours are like nothing else.  They mix these incredible spices, and sauces and secret ingredients and prepare the food in such a way that there really is nothing like it. Everything is so delicious - full of life and zest and love."
+                    "copy":"I’m a little biased... but Greek food is the best in the world, the flavours are like nothing else."
+                },
+                {
+                    "type":"normal",
+                    "copy":"Perhaps my favourite dishes were this wonderful dessert called Galaktoboureko a sweet semolina custard wrapped tightly in a little filo parcel. And yemista - a dish that’s been probably been around since the beginning of time - roasted vegetables stuffed fat with meats, spices and rice."
+                },{
+                    "type":"normal",
+                    "copy":"Greek cooks mix these incredible spices, and sauces and secret ingredients and prepare the food in such a way that there really is nothing like it. Everything is so delicious - full of life and zest and love."
                 }
             ]
         }
@@ -141,7 +148,7 @@
             "copy":[
                 {
                     "type":"normal",
-                    "copy":"Athens really is like a fantasy world, it’s just not like other cities.  There are so many alleyways, and secret passages and little nooks and corners filled with magic waiting to be discovered. There’s a real sense of wonder to the place... "
+                    "copy":"Athens really is like a fantasy world, it’s just not like other cities.  There are so many alleyways, and secret passages and little nooks and corners filled with magic waiting to be discovered. There’s a real sense of wonder to the place...and going on an adventure with a camera has helped me see things in a new way. I found this lovely little cafe and there were these two strangers dancing inside, and I thought, “I’ll take their photo” and the next thing you know… we were all sitting around a table chatting and they invited me to their birthday party! "
                 },
                 {
                     "type":"normal",
@@ -158,7 +165,7 @@
             "Label":"Section 4",
             "layout":"textRight",
             "trinkets":null,
-            "Custom_Label":"Greece rewards the curious and those with a sense of adventure. ",
+            "Custom_Label":"",
             "Images":[
                 {
                     "type":"still",

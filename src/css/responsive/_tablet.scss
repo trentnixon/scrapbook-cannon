@@ -12,11 +12,8 @@
     ***************************************** */      
         .section_0 {
             .Copy { margin: 30px 0px 0px 79px;}
-            .Additional{
            
-            }
         }
-
     /* **************************************
     * SECTION 1
     ***************************************** */  
@@ -24,9 +21,9 @@
     .section_1{  margin: 60px 0 0 0; }
 
 
-        /* **************************************
-        * SECTION 2
-        ***************************************** */ 
+    /* **************************************
+     * SECTION 2
+    ***************************************** */ 
         .section_2 {
             .Hero{
                 img{
@@ -34,6 +31,8 @@
                 }
             }
             
+            .Copy{padding:10px 0 0 0px;}
+
             .Additional {
                 height: 385px;
                 #Asset_Left{margin-top: -80px;}
@@ -51,6 +50,7 @@
         * SECTION 3
         ***************************************** */ 
         .section_3{ 
+            .Copy{padding:10px 0 0 0px;}
             .cursive{ margin: -41px 0 50px 100px!important; font-size: 2.5em;}
             #Asset_Left{
                 margin: 0px 5% 0 !important;

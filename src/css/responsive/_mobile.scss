@@ -1,6 +1,9 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
+    .CTA{
+        padding: 9px 0;
+    }
     }
 
 /* Smartphones (landscape) ----------- */
@@ -12,7 +15,11 @@
 /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
     /* Styles */
+    .CTA{
+        padding: 9px 0;
+    }
     #Mobile {
+       
         .App-footer{
             margin-bottom: 20px;
             .btn {

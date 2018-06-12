@@ -7,6 +7,7 @@ let Display_Media=null;
 export default class Media extends Component {
 
     componentWillMount(){ 
+        //console.log(this.props)
         
         switch(this.props.type) {
             case null:
@@ -14,12 +15,12 @@ export default class Media extends Component {
                 break;
             case "still":
                     Display_Media = this.props.assets.map((asset,i)=>{
-                        return( <StillImages key={i} path="/assets/" image={asset} /> )
+                        return( <StillImages key={i} path={this.props.Path} image={asset} /> )
                     })
                 break;
-            case "slide" :Display_Media =  <SlideShow path="/assets/"  data={this.props.assets}/>;
+            case "slide" :Display_Media =  <SlideShow path={this.props.Path}  data={this.props.assets}/>;
                 break;
-            case "sync": Display_Media =  <SyncSlider path="/assets/"  data={this.props.assets}/>
+            case "sync": Display_Media =  <SyncSlider path={this.props.Path} data={this.props.assets}/>
                 break;
             default: Display_Media=null;
         }

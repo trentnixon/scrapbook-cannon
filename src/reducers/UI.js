@@ -2,6 +2,7 @@
 
 const InitialState ={
 	Data:false,
+	ImagePath:'https://interactive.guim.co.uk/embed/2018/06/scrapbook-cannon/irene/assets/'
 }
 
 const UI = (state=InitialState, action) =>{

@@ -24,7 +24,7 @@ export default class AsNavFor extends Component {
   }
 
   render() {
-      console.log(this.props.data)
+     //  console.log(this.props.data)
     return (
       <div>
         

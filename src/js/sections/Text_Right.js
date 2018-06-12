@@ -20,6 +20,7 @@ export default class Text_Left extends Component {
                         type={Data.Images["0"].type} 
                         assets={Data.Images["0"].assets}
                         id="hero"
+                        Path={this.props.Path}
                     />
                 </div>
                 <div className="col-12 col-md-6"> 
@@ -31,11 +32,13 @@ export default class Text_Left extends Component {
                         type={Data.Images["1"].type} 
                         assets={Data.Images["1"].assets}
                         id="Asset_Left"
+                        Path={this.props.Path}
                     />
                     <Media 
                         type={Data.Images["2"].type} 
                         assets={Data.Images["2"].assets}
                         id="Asset_Right"
+                        Path={this.props.Path}
                     />
                 </div>
 

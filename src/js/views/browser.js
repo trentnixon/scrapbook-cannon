@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
 import { connect } from "react-redux";
+import ReactGA from 'react-ga';
 // Scrap Book layout
 import LoadingScreen from "../sections/Loading";
 import Header from "../sections/Header";
@@ -10,8 +10,7 @@ import TextLeft from "../sections/Text_Left";
 import TextRight from "../sections/Text_Right";
 
 class App extends Component {
- 
-    componentWillMount(){  }
+    componentWillMount(){   ReactGA.initialize('UA-76345112-9'); }
     shouldComponentUpdate(nextProps, nextState){ return true;}
     componentWillUpdate(nextProps, nextState){}
     componentDidUpdate(){ }
@@ -24,7 +23,7 @@ class App extends Component {
         <div id="Browser" className="App  container">  
             <div className="d-md-none">
                     <LoadingScreen 
-                        logo="/assets/Canon-Logo.png"
+                        logo={this.props.UI.ImagePath+"Canon-Logo.png"}
                     />
                     <p className="text-center" >Refresh this page to view the content.</p>
             </div>
@@ -32,6 +31,8 @@ class App extends Component {
             <Header 
                 header={this.props.UI.Data.header} 
                 header_logo={this.props.UI.Data.header_logo}
+                Path={this.props.UI.ImagePath}
+
             />
             
             {
@@ -49,7 +50,7 @@ class App extends Component {
                                     Additional_type={section.media} 
                                     Additional_assets={section.Assets}
 
-                                    Path="/assets/"
+                                    Path={this.props.UI.ImagePath}
                                 />
                               )
                         }
@@ -65,7 +66,7 @@ class App extends Component {
                                     Additional_type={section.media} 
                                     Additional_assets={section.Assets}
                                     
-                                    Path="/assets/"
+                                    Path={this.props.UI.ImagePath}
                                 />
                               )
                             }
@@ -75,14 +76,14 @@ class App extends Component {
                     <Sponsor 
                         tagline={this.props.UI.Data.tagline}
                         logo={this.props.UI.Data.SponsorLogo}
-                        path="/assets/"
+                        path={this.props.UI.ImagePath}
                     />
                     </div>
                   </div>
                 );
               }else{ return( 
                     <LoadingScreen 
-                        logo="/assets/Canon-Logo.png"
+                        logo={this.props.UI.ImagePath+"Canon-Logo.png"}
                     />
             ) }
   }

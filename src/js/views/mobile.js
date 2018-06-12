@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ReactGA from 'react-ga';
 import { connect } from "react-redux";
 // Scrap Book layout
 import Header from "../sections/Header";
@@ -11,7 +11,7 @@ import Sponsor from "../sections/Sponsorship";
 
 class App extends Component {
  
-    componentWillMount(){  }
+    componentWillMount(){  ReactGA.initialize('UA-76345112-9'); }
     shouldComponentUpdate(nextProps, nextState){ return true;}
     componentWillUpdate(nextProps, nextState){}
     componentDidUpdate(){ }
@@ -23,17 +23,22 @@ class App extends Component {
                       <Header 
                         header={this.props.UI.Data.header} 
                         header_logo={this.props.UI.Data.header_logo}
+                        Path={this.props.UI.ImagePath}
                       />
 
                     {
                       this.props.UI.Data.Sections.map((section,i)=>{
-                        console.log(section)
+                        // console.log(section)
                         return(
                           <section className={"section_"+i +' '+ section.media} key={i}>
                             <div className="row">
                               
                               <Paragraph data={section.copy} />
-                              <Media type={section.Mobile_Media} assets={section.Mobile_Assest}/>
+                              <Media 
+                                type={section.Mobile_Media} 
+                                assets={section.Mobile_Assest}
+                                Path={this.props.UI.ImagePath}
+                              />
                             </div>
                           </section>
                         )
@@ -43,11 +48,11 @@ class App extends Component {
                     <Sponsor 
                         tagline={this.props.UI.Data.tagline}
                         logo={this.props.UI.Data.SponsorLogo}
-                        path="/assets/"
+                        path={this.props.UI.ImagePath}
                     />
                   </div>
                 );
-              }else{ return( <LoadingScreen logo="/assets/Canon-Logo.png" />) }
+              }else{ return( <LoadingScreen  logo={this.props.UI.ImagePath+"Canon-Logo.png"} />) }
   }
 }
 const mapStateToProps = (state) => ({
